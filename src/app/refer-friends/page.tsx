@@ -202,7 +202,7 @@ const ReferFriendsPage = () => {
                       name="message"
                       value={formData.message}
                       onChange={handleInputChange}
-                      rows="4"
+                      rows={4}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-primary focus:border-transparent"
                       placeholder="Add a personal message to your invitation..."
                     ></textarea>
