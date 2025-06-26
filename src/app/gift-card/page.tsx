@@ -311,8 +311,8 @@ const GiftCardPage = () => {
                         name="message"
                         value={formData.message}
                         onChange={handleInputChange}
-                        rows="4"
-                        maxLength="500"
+                        rows={4}
+                        maxLength={500}
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-primary focus:border-transparent"
                         placeholder="Write a personal message for the recipient..."
                       ></textarea>
