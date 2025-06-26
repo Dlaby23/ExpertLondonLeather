@@ -145,14 +145,16 @@ const MenPage = () => {
                   }}
                   onMouseEnter={(e) => {
                     if (selectedCategory !== category) {
-                      e.target.style.backgroundColor = '#8d5c4b'
-                      e.target.style.color = 'white'
+                      const target = e.target as HTMLButtonElement
+                      target.style.backgroundColor = '#8d5c4b'
+                      target.style.color = 'white'
                     }
                   }}
                   onMouseLeave={(e) => {
                     if (selectedCategory !== category) {
-                      e.target.style.backgroundColor = 'transparent'
-                      e.target.style.color = '#8d5c4b'
+                      const target = e.target as HTMLButtonElement
+                      target.style.backgroundColor = 'transparent'
+                      target.style.color = '#8d5c4b'
                     }
                   }}
                 >
