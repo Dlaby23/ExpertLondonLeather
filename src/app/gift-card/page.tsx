@@ -43,19 +43,19 @@ const GiftCardPage = () => {
     },
   ]
 
-  const handleInputChange = (e) => {
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
     })
   }
 
-  const handleAmountSelect = (amount) => {
+  const handleAmountSelect = (amount: number) => {
     setSelectedAmount(amount)
     setCustomAmount('')
   }
 
-  const handleCustomAmountChange = (e) => {
+  const handleCustomAmountChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value
     setCustomAmount(value)
     if (value) {
@@ -63,7 +63,7 @@ const GiftCardPage = () => {
     }
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     const giftCardData = {
       amount: selectedAmount,
