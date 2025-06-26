@@ -296,7 +296,7 @@ const ShopPage = () => {
                           </span>
                         )}
                       </div>
-                      <button className="text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors" style={{backgroundColor: '#8d5c4b'}} onMouseEnter={(e) => e.target.style.backgroundColor = '#7a4f3e'} onMouseLeave={(e) => e.target.style.backgroundColor = '#8d5c4b'}>
+                      <button className="text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors" style={{backgroundColor: '#8d5c4b'}} onMouseEnter={(e) => (e.target as HTMLButtonElement).style.backgroundColor = '#7a4f3e'} onMouseLeave={(e) => (e.target as HTMLButtonElement).style.backgroundColor = '#8d5c4b'}>
                         Add to Cart
                       </button>
                     </div>
