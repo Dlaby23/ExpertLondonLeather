@@ -105,5 +105,11 @@ Ready for deployment on:
 
 ## 📄 License
 
-This project represents a modernization of the Expert London Leather website.# ExpertLondonLeather
+This project represents a modernization of the Expert London Leather website.
+
 # ExpertLondonLeather
+
+## Live Demo
+Visit the live website at: [Expert London Leather](https://expert-london-leather.vercel.app)
+
+Built with Next.js 15, TypeScript, and Tailwind CSS.
