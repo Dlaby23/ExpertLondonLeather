@@ -161,7 +161,7 @@ const ShopPage = () => {
   } else if (sortBy === 'price-high') {
     filteredProducts.sort((a, b) => parseFloat(b.price.replace('£', '')) - parseFloat(a.price.replace('£', '')))
   } else if (sortBy === 'featured') {
-    filteredProducts.sort((a, b) => b.featured - a.featured)
+    filteredProducts.sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0))
   }
 
   return (
