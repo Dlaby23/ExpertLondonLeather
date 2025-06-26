@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-sans text-gray-900 antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-medium;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    background-color: #8d5c4b;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: all 0.2s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #7a4f3e;
+  }
+  
+  .btn-secondary {
+    border: 1px solid #8d5c4b;
+    color: #8d5c4b;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: all 0.2s;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #8d5c4b;
+    color: white;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .bg-brand-primary { background-color: #8d5c4b; }
+  .bg-brand-light { background-color: #f1e4d4; }
+  .bg-brand-cream { background-color: #fcece4; }
+  .bg-brand-medium { background-color: #a5765b; }
+  .bg-brand-neutral { background-color: #ece7dd; }
+  
+  .text-brand-primary { color: #8d5c4b; }
+  .text-brand-medium { color: #a5765b; }
+}
