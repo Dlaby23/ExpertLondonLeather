@@ -52,7 +52,7 @@ const Features = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="group p-8 rounded-2xl transition-colors duration-300 h-full flex flex-col" style={{backgroundColor: '#f1e4d4'}} onMouseEnter={(e) => e.target.style.backgroundColor = '#fcece4'} onMouseLeave={(e) => e.target.style.backgroundColor = '#f1e4d4'}
+              className="group p-8 rounded-2xl transition-colors duration-300 h-full flex flex-col" style={{backgroundColor: '#f1e4d4'}} onMouseEnter={(e) => (e.target as HTMLDivElement).style.backgroundColor = '#fcece4'} onMouseLeave={(e) => (e.target as HTMLDivElement).style.backgroundColor = '#f1e4d4'}
             >
               <div className="w-16 h-16 rounded-lg overflow-hidden mb-6">
                 <Image
