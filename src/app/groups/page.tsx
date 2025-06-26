@@ -297,7 +297,7 @@ const GroupsPage = () => {
                       </svg>
                     </div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">No Groups Yet</h3>
-                    <p className="text-gray-600 mb-4">You haven't joined any groups yet. Discover communities that match your interests!</p>
+                    <p className="text-gray-600 mb-4">You haven&apos;t joined any groups yet. Discover communities that match your interests!</p>
                     <button
                       onClick={() => setActiveTab('discover')}
                       className="px-6 py-3 bg-brand-primary text-white rounded-lg font-medium hover:bg-brand-primary/90 transition-colors"

@@ -29,7 +29,7 @@ const WarrantyPage = () => {
             <div className="grid lg:grid-cols-2 gap-12 mb-16">
               <div>
                 <h2 className="text-3xl font-serif font-bold text-gray-900 mb-6">
-                  What's Covered
+                  What&apos;s Covered
                 </h2>
                 <div className="space-y-6">
                   <div className="flex items-start space-x-4">
@@ -73,7 +73,7 @@ const WarrantyPage = () => {
 
               <div>
                 <h2 className="text-3xl font-serif font-bold text-gray-900 mb-6">
-                  What's Not Covered
+                  What&apos;s Not Covered
                 </h2>
                 <div className="space-y-6">
                   <div className="flex items-start space-x-4">

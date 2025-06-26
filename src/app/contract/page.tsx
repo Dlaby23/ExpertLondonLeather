@@ -26,7 +26,7 @@ const ContractPage = () => {
                     1. General Terms
                   </h2>
                   <p className="text-gray-600 leading-relaxed mb-4">
-                    These terms and conditions outline the rules and regulations for the use of Expert London Leather's 
+                    These terms and conditions outline the rules and regulations for the use of Expert London Leather&apos;s 
                     website and services. By accessing this website and purchasing our products, you accept these terms 
                     and conditions in full.
                   </p>
@@ -137,7 +137,7 @@ const ContractPage = () => {
                     8. Limitation of Liability
                   </h2>
                   <p className="text-gray-600 leading-relaxed">
-                    Expert London's liability is limited to the purchase price of the product. We are not liable for 
+                    Expert London&apos;s liability is limited to the purchase price of the product. We are not liable for 
                     any indirect, incidental, special, or consequential damages arising from the use of our products 
                     or services.
                   </p>

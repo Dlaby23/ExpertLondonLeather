@@ -166,7 +166,7 @@ const ReferFriendsPage = () => {
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Friend's Name
+                      Friend&apos;s Name
                     </label>
                     <input
                       type="text"
@@ -181,7 +181,7 @@ const ReferFriendsPage = () => {
 
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Friend's Email
+                      Friend&apos;s Email
                     </label>
                     <input
                       type="email"
@@ -250,7 +250,7 @@ const ReferFriendsPage = () => {
               Terms & Conditions
             </h2>
             <div className="max-w-3xl mx-auto text-left space-y-4 text-gray-600">
-              <p>• Referral rewards are credited to your account after your friend's first purchase is completed and the return period has passed.</p>
+              <p>• Referral rewards are credited to your account after your friend&apos;s first purchase is completed and the return period has passed.</p>
               <p>• The friend must be a new customer who has never purchased from Expert London before.</p>
               <p>• Referral credits have no expiry date and can be used on any future purchase.</p>
               <p>• Credits cannot be transferred or exchanged for cash.</p>

@@ -95,7 +95,7 @@ const MenPage = () => {
         <section className="py-16 bg-brand-cream">
           <div className="container-custom">
             <h1 className="text-4xl lg:text-5xl font-serif font-bold text-center text-gray-900 mb-6">
-              Men's Collection
+              Men&apos;s Collection
             </h1>
             <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto">
               Discover our curated selection of premium leather goods designed specifically for the modern gentleman. 
@@ -112,12 +112,12 @@ const MenPage = () => {
                   Crafted for the Modern Gentleman
                 </h2>
                 <p className="text-gray-600 leading-relaxed mb-6">
-                  Our men's collection represents the pinnacle of leather craftsmanship, designed for those who 
+                  Our men&apos;s collection represents the pinnacle of leather craftsmanship, designed for those who 
                   appreciate quality and attention to detail. From boardroom briefcases to weekend travel bags, 
                   each piece is carefully constructed to meet the demands of contemporary life.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  Every item in our men's range is handcrafted using traditional techniques passed down through 
+                  Every item in our men&apos;s range is handcrafted using traditional techniques passed down through 
                   generations, ensuring that your leather goods will age beautifully and serve you for years to come.
                 </p>
               </div>

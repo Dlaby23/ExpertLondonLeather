@@ -50,7 +50,7 @@ const ContactPage = () => {
               Contact Us
             </h1>
             <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto">
-              Get in touch with our team. We're here to help you find the perfect leather goods 
+              Get in touch with our team. We&apos;re here to help you find the perfect leather goods 
               or answer any questions about our craftsmanship.
             </p>
           </div>
@@ -147,7 +147,7 @@ const ContactPage = () => {
                 {isSubmitted && (
                   <div className="mb-6 p-4 bg-green-100 border border-green-300 rounded-lg">
                     <p className="text-green-800 font-medium">
-                      Thank you for your message! We'll get back to you within 24 hours.
+                      Thank you for your message! We&apos;ll get back to you within 24 hours.
                     </p>
                   </div>
                 )}

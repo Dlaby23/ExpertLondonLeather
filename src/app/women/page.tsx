@@ -95,7 +95,7 @@ const WomenPage = () => {
         <section className="py-16 bg-brand-cream">
           <div className="container-custom">
             <h1 className="text-4xl lg:text-5xl font-serif font-bold text-center text-gray-900 mb-6">
-              Women's Collection
+              Women&apos;s Collection
             </h1>
             <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto">
               Discover our elegant selection of premium leather goods designed for the contemporary woman. 
@@ -112,7 +112,7 @@ const WomenPage = () => {
                   Elegance Meets Functionality
                 </h2>
                 <p className="text-gray-600 leading-relaxed mb-6">
-                  Our women's collection celebrates the modern woman's lifestyle, offering pieces that seamlessly 
+                  Our women&apos;s collection celebrates the modern woman&apos;s lifestyle, offering pieces that seamlessly 
                   transition from professional settings to personal moments. Each bag and accessory is thoughtfully 
                   designed to complement your individual style while providing the functionality you need.
                 </p>
@@ -219,7 +219,7 @@ const WomenPage = () => {
                   Thoughtful Design
                 </h3>
                 <p className="text-gray-600">
-                  Every piece is designed with a woman's lifestyle in mind, balancing 
+                  Every piece is designed with a woman&apos;s lifestyle in mind, balancing 
                   beauty with practical functionality for modern living.
                 </p>
               </div>
